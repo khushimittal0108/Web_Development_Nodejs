@@ -1,0 +1,20 @@
+.wall-container{
+    width:100%;
+    min-height: 100vh;  
+    background-color: yellow;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button-s{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    color: blanchedalmond;
+    padding: 10px;
+    background-color: purple;
+    border: none;
+
+}
