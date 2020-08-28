@@ -1,0 +1,7 @@
+.imagecard{
+    width: 200px;
+    height: 350px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin: 10px;
+}
