@@ -1,0 +1,37 @@
+.main-cont{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 40px;
+    font-style: italic;
+    color: darkslategrey;
+}
+
+.loadmore{
+    margin:15px;
+    width: 120px;
+    height: 40px;
+    border:none;
+    color: gold;
+    background-color: indigo;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.imgcard{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loadmore:disabled{
+    display: none;
+}
+
